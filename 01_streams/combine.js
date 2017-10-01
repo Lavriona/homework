@@ -17,5 +17,5 @@ fs.readdirSync(homework).forEach(file => {
 });
 
 stream.on('end',() => {
-    streamWrite.end('JoyCasino.com');
+    streamWrite.end('JoyCasino.com');   
 });
